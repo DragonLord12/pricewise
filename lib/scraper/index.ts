@@ -13,7 +13,7 @@ export async function scrapeAmazonProduct(url: string) {
 
   const options = {
     auth: {
-      username: `${username}-session-${session_id}`,
+      username: `${username}`,
       password,
     },
     host: "brd.superproxy.io",
